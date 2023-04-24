@@ -1,0 +1,33 @@
+.container {
+  position: relative;
+  flex-basis: 50%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  &.expand {
+    flex-basis: 100%;
+  }
+  &.shrink {
+    flex-basis: 0%;
+    width: 0%;
+  }
+  & > * {
+    width: 100%;
+  }
+  & > :first-child {
+    & > * {
+      margin: 0px;
+    }
+  }
+  & > :last-child {
+    height: 100%;
+    border-width: 0px;
+    overflow: scroll;
+
+    &:focus {
+      border: none;
+      outline: none;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.App {
+  position: relative;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+
+  .divider {
+    height: 100%;
+    background-color: black;
+    width: 2px;
+  }
+  * > {
+    flex: 1;
+  }
+}

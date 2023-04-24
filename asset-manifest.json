@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/fcc-task-2/static/css/main.458cc31c.css",
+    "main.js": "/fcc-task-2/static/js/main.0f98d484.js",
+    "index.html": "/fcc-task-2/index.html",
+    "main.458cc31c.css.map": "/fcc-task-2/static/css/main.458cc31c.css.map",
+    "main.0f98d484.js.map": "/fcc-task-2/static/js/main.0f98d484.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.458cc31c.css",
+    "static/js/main.0f98d484.js"
+  ]
+}
